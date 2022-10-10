@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lobster&family=Oswald:wght@200;500;700&family=Poppins:ital,wght@0,900;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    background-color: aliceblue;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    width: 90px;
+    height: 70px;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 3em;
+    margin-left: 390px;
+}
+
+.media {
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+.faltas {
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: gainsboro;
+}
+
+#btMostar {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(30, 255, 0, 0.323);
+    width: 428px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#btMostar2 {
+    width: 283px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(30, 255, 0, 0.323);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+pre {
+    font-size: 16px;
+    padding-top: 10px;
+}

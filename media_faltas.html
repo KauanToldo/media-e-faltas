@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media_faltas.css">
+    <title>Media e Faltas</title>
+</head>
+<body>
+    <script src="media_faltas.js"></script>
+    <nav>
+        <img class="logo" src="https://th.bing.com/th/id/R.8d94150f93f5ffd96569fbfb07555a44?rik=Z788TmLCfcRhRw&pid=ImgRaw&r=0" alt="">
+        <h1 class="titulo">MÉDIA E FALTAS</h1>
+    </nav>
+    <main>
+        <section class="media">
+            <h1 class="titulo2">Médias dos alunos (1-10)</h1>
+            <div><input type="text" id="nome" placeholder="Digite seu Nome"></div>
+            <input type="number" id="nota1" placeholder="Primeira Nota">
+            <input type="number" id="nota2" placeholder="Segunda Nota">
+            <input type="number" id="nota3" placeholder="Terceira Nota">
+            <div><button onclick="btnmostrar()" id="btMostar">MOSTRAR MÉDIA</button></div>
+            <pre id="outAprovacao"></pre> 
+        </section>
+        <section class="faltas">
+            <h1 class="titulo3">Faltas</h1>
+            <input type="number" id="aula" placeholder="Quantidade de Aulas">
+            <input type="number" id="falta" placeholder="Quantidade de Faltas">
+            <div><button onclick="btnmostrar2()" id="btMostar2">Mostrar Falta</button></div>
+            <pre id="outFaltas"></pre>
+        </section>
+    </main>
+</body>
+</html>
